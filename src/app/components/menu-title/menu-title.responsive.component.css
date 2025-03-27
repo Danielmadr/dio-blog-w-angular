@@ -1,5 +1,19 @@
-@media screen and (max-width:600px) {
-  .container__menu-title > h1{
+@media (max-width: 768px) {
+  .container__menu-title > h1 {
+    font-size: 80px;
+  }
+
+  .container__menu-title > h2 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container__menu-title > h1 {
+    font-size: 50px;
+  }
+
+  .container__menu-title > h2 {
     font-size: 30px;
   }
 }
