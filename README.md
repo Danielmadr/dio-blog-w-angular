@@ -1,27 +1,54 @@
-# AngularBlog
+# DIO Blog com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto de blog desenvolvido com Angular como parte das atividades da Digital Innovation One (DIO).
 
-## Development server
+## Índice
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
 
-## Code scaffolding
+## Sobre
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este projeto é um blog desenvolvido para demonstrar o uso do Angular em uma aplicação web. O objetivo é fornecer uma plataforma onde os usuários possam visualizar postagens de blog.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular** - Principal framework utilizado para o desenvolvimento da aplicação.
+- **TypeScript** - Linguagem de programação que adiciona tipagem estática ao JavaScript.
+- **CSS** - Para estilização da aplicação.
+- **HTML** - Estrutura básica das páginas web.
+- **JavaScript** - Para funcionalidades adicionais.
 
-## Running unit tests
+## Instalação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para instalar e rodar este projeto localmente, siga os passos abaixo:
 
-## Running end-to-end tests
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Danielmadr/dio-blog-w-angular.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd dio-blog-w-angular
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Rode a aplicação:
+    ```bash
+    ng serve
+    ```
+5. Acesse a aplicação no navegador:
+    ```
+    http://localhost:4200
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Licença
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto está licenciado sob a [MIT License](LICENSE).
