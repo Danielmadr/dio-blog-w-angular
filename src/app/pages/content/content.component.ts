@@ -11,6 +11,7 @@ export class ContentComponent implements OnInit {
   photoCover: string = '';
   contentTitle: string = '';
   contentDescription: string = '';
+  releaseDate: string = '';
   private id: number | null = null;
 
   constructor(private route: ActivatedRoute) {}
@@ -32,8 +33,9 @@ export class ContentComponent implements OnInit {
 
     if (result) {
       this.contentTitle = result.cardTitle;
-      this.contentDescription = result.cardDescription;
+      this.contentDescription = result.cardDetailDescription;
       this.photoCover = result.photoCover;
+      this.releaseDate = result.releaseDate;
     } else {
       console.warn(`No content found for ID: ${id}`);
       this.contentTitle = 'Content not found';
