@@ -1,0 +1,26 @@
+<app-menu-title></app-menu-title>
+
+<div class="container__articles">
+  <div class="articles__main">
+    <!-- Exibe o primeiro item do array como Big Card -->
+    <app-big-card
+      *ngIf="movies && movies.length > 0"
+      [Id]="movies[0].id"
+      [photoCover]="movies[0].photoCover"
+      [cardTitle]="movies[0].cardTitle"
+      [cardDescription]="movies[0].cardDescription || ''"
+    >
+    </app-big-card>
+  </div>
+
+  <div class="articles__others">
+    <!-- Exibe os demais itens do array como Small Cards -->
+    <app-small-card
+      *ngFor="let movie of movies.slice(1)"
+      [Id]="movie.id"
+      [cardTitle]="movie.cardTitle"
+      [photoCover]="movie.photoCover"
+    >
+    </app-small-card>
+  </div>
+</div>
